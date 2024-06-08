@@ -16,7 +16,7 @@ body:
       label: Expected behavior
       description: Describe what you expected to happen.
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: repro
@@ -24,7 +24,7 @@ body:
       label: Steps to reproduce
       description: Provide clear steps to reproduce the bug, aiming for minimal steps.
     validations:
-      required: true
+      required: false
 
   - type: textarea
     id: additional
