@@ -25,7 +25,7 @@ Fixes #
 
 #### 🎯 How to Verify this PR:
 
-#### 📑 Additional Documentation, e.g., KEPs (OpenIM Enhancement Proposals), Usage Docs, etc.:
+#### 📑 Additional Documentation, e.g., KEPs (Telepace Enhancement Proposals), Usage Docs, etc.:
 <!-- This section can be empty if this pull request does not require a release note.
 When adding links that point to resources within git repositories, reference a specific commit to avoid linking directly to the master branch.
 Recommended Documents:
