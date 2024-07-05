@@ -1,7 +1,7 @@
 name: "COE（Correction of Errors）"
 description: "COE（Correction of Errors）"
-title: "[COS] Issue: [Short Description]"
-labels: ["bug", "database", "cos"]
+title: "[COE] Issue: [Short Description]"
+labels: ["bug", "database", "coe"]
 assignees: [cubxxw]
 
 body:
