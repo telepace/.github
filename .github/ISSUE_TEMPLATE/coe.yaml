@@ -1,8 +1,8 @@
-name: "Database Issue Report"
-description: "Template for reporting and analyzing database issues"
-title: "Database Issue: [Short Description]"
-labels: ["bug", "database"]
-assignees: []
+name: "COE（Correction of Errors）"
+description: "COE（Correction of Errors）"
+title: "[COS] Issue: [Short Description]"
+labels: ["bug", "database", "cos"]
+assignees: [cubxxw]
 
 body:
   - type: textarea
