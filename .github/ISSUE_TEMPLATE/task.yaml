@@ -1,7 +1,7 @@
 name: Task
 description: Create a general task or TODO item
 title: "[Task]: <Brief description>"
-labels: ["type:enhancement"]
+labels: ["enhancement"]
 type: task
 
 body:
