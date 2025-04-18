@@ -1,6 +1,6 @@
 name: Task
 description: Create a general task or TODO item
-title: "[Task]: <Brief description>"
+title: "【Task】 <Brief description>"
 labels: ["enhancement"]
 type: task
 
@@ -9,7 +9,7 @@ body:
     id: task_description
     attributes:
       label: Task description
-      description: Describe what needs to be done, and why.
+      description: Describe what needs to be done.
     validations:
       required: true
 
