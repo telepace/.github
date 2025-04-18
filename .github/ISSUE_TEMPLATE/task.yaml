@@ -1,0 +1,22 @@
+name: Task
+description: Create a general task or TODO item
+title: "[Task]: <Brief description>"
+labels: ["type:enhancement"]
+type: task
+
+body:
+  - type: textarea
+    id: task_description
+    attributes:
+      label: Task description
+      description: Describe what needs to be done, and why.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context (optional)
+      description: Add any relevant context, links, or background info.
+    validations:
+      required: false
