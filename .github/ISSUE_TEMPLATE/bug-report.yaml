@@ -1,7 +1,7 @@
 name: Bug Report
 description: Submit a bug report for Reson
 title: "【Bug】<Brief description>"
-labels: "bug"
+labels: ["bug"]
 assignees:
   - cubxxw
   
