@@ -1,65 +1,18 @@
 name: Feature Request
 description: Suggest an idea for this project
-title: "[Feature]: <Feature Request Title>"
+title: "【Feature】: <Feature Request Title>"
 labels: ["type:feature"]
 assignees:
-  - telepace/maintainers
+  - cubxxw
+type: feature
+
 body:
-  - type: markdown
-    attributes:
-      value: Thank you for initiating this feature request! 🤗
-      
-  # - type: checkboxes
-  #   id: checklist
-  #   attributes:
-  #     label: Checklist
-  #     description: "Please confirm the following before submitting your feature request:"
-  #     options:
-  #       - label: I have searched for similar issues and found none matching.
-  #         required: true
-  #       - label: I have discussed this feature request in the [RosonSDK Slack](https://join.slack.com/t/rosonsdk/shared_invite/zt-1tmoj26uf-_FDy3dowVHBiGvLk9e5Xkg) and received positive feedback.
-  #         required: true
-
-  # - type: dropdown
-  #   id: problem
-  #   attributes:
-  #     label: Related to a problem?
-  #     options:
-  #       - "Yes"
-  #       - "No"
-
   - type: textarea
-    id: problem_description
+    id: feature_description
     attributes:
-      label: Problem Description
-      description: If yes, describe the problem clearly and concisely. E.g., "It's frustrating when..."
+      label: Feature Description
+      description: Describe the feature you’d like to see.
+      placeholder: |
+        What should this feature do? Why is it useful?
     validations:
       required: false
-
-  - type: textarea
-    id: solution_description
-    attributes:
-      label: Solution Description
-      description: Describe what you want to happen clearly and concisely.
-    validations:
-      required: false
-
-  - type: textarea
-    id: benefits_description
-    attributes:
-      label: Benefits
-      description: Explain the benefits this feature will bring to the project and its users.
-    validations:
-      required: false
-
-  - type: textarea
-    id: drawbacks
-    attributes:
-      label: Potential Drawbacks
-      description: Discuss any potential drawbacks this feature might introduce.
-
-  - type: textarea
-    id: additional_information
-    attributes:
-      label: Additional Information
-      description: Provide any other context or diagrams to help explain your feature request.
