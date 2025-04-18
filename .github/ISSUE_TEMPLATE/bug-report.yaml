@@ -1,55 +1,33 @@
 name: Bug Report
 description: Submit a bug report for Reson
-labels: ["bug"]
+title: "【Bug】<Brief description>"
+labels: ["type:bug"]
+assignees:
+  - cubxxw
+  
+type: bug
+
 body:
   - type: textarea
-    id: problem
+    id: what_happened
     attributes:
       label: What happened?
-      description: Provide detailed information about the bug. The more details you provide, the faster we can help.
+      description: Clearly describe the issue.
     validations:
       required: true
 
   - type: textarea
-    id: expected
+    id: steps
     attributes:
-      label: Expected behavior
-      description: Describe what you expected to happen.
+      label: How to reproduce
+      description: Share the minimal steps to reproduce the issue.
     validations:
       required: false
 
   - type: textarea
-    id: repro
+    id: environment
     attributes:
-      label: Steps to reproduce
-      description: Provide clear steps to reproduce the bug, aiming for minimal steps.
+      label: Environment (optional)
+      description: OS, cloud provider, install method—if relevant.
     validations:
       required: false
-
-  - type: textarea
-    id: additional
-    attributes:
-      label: Additional information
-      description: Include any other relevant information that could help with troubleshooting.
-
-  - type: textarea
-    id: cloudProvider
-    attributes:
-      label: Cloud provider
-      description: Specify your cloud provider, if applicable.
-    validations:
-      required: true
-
-  - type: textarea
-    id: osVersion
-    attributes:
-      label: Operating System
-      description: Provide your OS version. For Linux, use `cat /etc/os-release` and `uname -a`. For Windows, run `wmic os get Caption, Version, BuildNumber, OSArchitecture` and paste the output.
-    validations:
-      required: true
-
-  - type: textarea
-    id: installer
-    attributes:
-      label: Installation tools
-      description: List any installation tools used, if applicable.
