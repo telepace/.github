@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 Telepace AI
-[telepace.cc](telepace.cc) 
+[telepace.cc](https://telepace.cc) 
 
 <!--
 
